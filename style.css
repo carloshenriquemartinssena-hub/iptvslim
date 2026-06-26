@@ -56,13 +56,13 @@ body {
 
 /* Cards */
 .card, .plan {
-  background: #1c1c2e;
+  background: #000000;
   padding: 20px;
   border-radius: 10px;
 }
 
 .plan.highlight {
-  border: 2px solid #ff00aa;
+  border: 2px solid #be2525;
 }
 
 /* Footer */
