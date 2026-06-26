@@ -1,72 +1,111 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>StreamPlus - Assinatura de Streaming</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>StreamPlus</title>
   <link rel="stylesheet" href="style.css">
-  <link rel="stylesheet" href="script.js">
 </head>
 <body>
 
 <header class="header">
   <h1>StreamPlus</h1>
   <nav>
-    <a href="#planos">Planos</a>
     <a href="#beneficios">Benefícios</a>
+    <a href="#preco">Plano</a>
+    <a href="#avaliacoes">Avaliações</a>
     <a href="#contato">Contato</a>
   </nav>
 </header>
 
 <section class="hero">
-  <h2>Filmes, séries e canais ao vivo em um só lugar</h2>
-  <p>Assine agora e assista em qualquer dispositivo</p>
-  <button onclick="scrollToPlans()">Ver planos</button>
+  <h2>Entretenimento completo em um só lugar</h2>
+  <p>Assista onde e quando quiser</p>
 </section>
 
+<!-- PLANO -->
+<section id="preco" class="section">
+  <h2>Plano Único</h2>
+
+  <div class="plan single">
+    <h3>Plano Premium</h3>
+    <p class="price">R$ 29,90 / mês</p>
+    <p>
+      Acesso ilimitado a canais ao vivo, séries, filmes, documentários, novelas,
+      futebol e muito mais em qualquer dispositivo.
+    </p>
+    <button>Assinar agora</button>
+  </div>
+</section>
+
+<!-- BENEFÍCIOS -->
 <section id="beneficios" class="section">
   <h2>Benefícios</h2>
   <div class="grid">
-    <div class="card">📱 Compatível com todos os dispositivos</div>
-    <div class="card">⚡ Streaming rápido e estável</div>
-    <div class="card">🎬 Conteúdo atualizado semanalmente</div>
+    <div class="card">📱 Funciona em qualquer dispositivo</div>
+    <div class="card">⚡ Alta qualidade de streaming</div>
+    <div class="card">🎬 Conteúdo variado</div>
     <div class="card">🔒 Cancelamento fácil</div>
   </div>
 </section>
 
-<section id="planos" class="section">
-  <h2>Planos Mensais</h2>
+<!-- AVALIAÇÕES (MODELO) -->
+<section id="avaliacoes" class="section">
+  <h2>O que nossos clientes dizem</h2>
 
   <div class="grid">
-    <div class="plan">
-      <h3>Básico</h3>
-      <p>R$ 19,90/mês</p>
-      <button>Assinar</button>
+
+    <div class="review">
+      <img src="https://i.pravatar.cc/100?img=12" alt="avatar">
+      <h4>Cliente A</h4>
+      <p>⭐⭐⭐⭐⭐</p>
+      <p>"Muito bom, funciona perfeitamente na minha TV."</p>
     </div>
 
-    <div class="plan highlight">
-      <h3>Premium</h3>
-      <p>R$ 29,90/mês</p>
-      <button>Assinar</button>
+    <div class="review">
+      <img src="https://i.pravatar.cc/100?img=32" alt="avatar">
+      <h4>Cliente B</h4>
+      <p>⭐⭐⭐⭐⭐</p>
+      <p>"Qualidade excelente e sem travamentos."</p>
     </div>
 
-    <div class="plan">
-      <h3>Ultra</h3>
-      <p>R$ 39,90/mês</p>
-      <button>Assinar</button>
+    <div class="review">
+      <img src="https://i.pravatar.cc/100?img=45" alt="avatar">
+      <h4>Cliente C</h4>
+      <p>⭐⭐⭐⭐⭐</p>
+      <p>"Melhor custo-benefício que já encontrei."</p>
     </div>
+
   </div>
 </section>
 
-<section id="contato" class="section">
-  <h2>Contato</h2>
-  <p>Suporte 24h via e-mail: suporte@streamplus.com</p>
-</section>
+<!-- FOOTER -->
+<footer id="contato" class="footer">
+  <div class="footer-grid">
 
-<footer>
-  <p>© 2026 StreamPlus - Todos os direitos reservados</p>
+    <div>
+      <h3>Contato</h3>
+      <p>WhatsApp: (SEU NÚMERO AQUI)</p>
+      <p>Email: contato@seusite.com</p>
+    </div>
+
+    <div>
+      <h3>Institucional</h3>
+      <p>Quem somos</p>
+      <p>Termos de uso</p>
+      <p>Política de privacidade</p>
+    </div>
+
+    <div>
+      <h3>Ajuda</h3>
+      <p>Suporte 24h</p>
+      <p>FAQ</p>
+    </div>
+
+  </div>
+
+  <p class="copy">© 2026 Todos os direitos reservados</p>
 </footer>
 
-<script src="script.js"></script>
 </body>
 </html>
