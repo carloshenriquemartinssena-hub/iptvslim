@@ -30,7 +30,7 @@ body {
 .hero {
   text-align: center;
   padding: 80px 20px;
-  background: linear-gradient(135deg, #6a00ff, #ff00aa);
+  background: linear-gradient(135deg, #000000, #972713);
 }
 
 .hero button {
@@ -71,6 +71,11 @@ footer {
   padding: 20px;
   background: #111;
   margin-top: 40px;
+}
+
+.button { 
+    color: green;
+    padding: 10px;
 }
 
 /* Responsivo */
