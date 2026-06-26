@@ -3,75 +3,82 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>StreamPlus</title>
+  <title>StreamMax</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
+<!-- MENU -->
 <header class="header">
-  <h1>StreamPlus</h1>
+  <h1>StreamMax</h1>
   <nav>
-    <a href="#beneficios">Benefícios</a>
-    <a href="#preco">Plano</a>
-    <a href="#avaliacoes">Avaliações</a>
-    <a href="#contato">Contato</a>
+    <a href="#preco">Preço</a>
+    <a href="#reviews">Comentários</a>
+    <a href="#faq">FAQ</a>
   </nav>
 </header>
 
+<!-- HERO / SLIDES -->
 <section class="hero">
-  <h2>Entretenimento completo em um só lugar</h2>
-  <p>Assista onde e quando quiser</p>
+  <div class="slide active">
+    <h2>Filmes que você ama, onde quiser</h2>
+    <p>Milhares de títulos disponíveis instantaneamente.</p>
+  </div>
+
+  <div class="slide">
+    <h2>Séries completas e atualizadas</h2>
+    <p>Episódios novos toda semana sem complicação.</p>
+  </div>
+
+  <div class="slide">
+    <h2>Entretenimento sem limites</h2>
+    <p>Assista no celular, TV ou computador com qualidade máxima.</p>
+  </div>
+
+  <button class="cta">Assinar agora</button>
 </section>
 
-<!-- PLANO -->
-<section id="preco" class="section">
+<!-- PREÇO -->
+<section id="preco" class="section price">
   <h2>Plano Único</h2>
 
-  <div class="plan single">
-    <h3>Plano Premium</h3>
-    <p class="price">R$ 29,90 / mês</p>
+  <div class="card">
+    <h3>Premium Total</h3>
+    <p class="valor">R$ 29,90 / mês</p>
+
     <p>
-      Acesso ilimitado a canais ao vivo, séries, filmes, documentários, novelas,
-      futebol e muito mais em qualquer dispositivo.
+      Tenha acesso ilimitado a filmes, séries, novelas, documentários e esportes,
+      tudo em um só lugar. Sem anúncios, sem interrupções e com qualidade HD/Full HD.
+      Uma experiência muito superior às plataformas tradicionais.
     </p>
-    <button>Assinar agora</button>
+
+    <button class="cta">Assinar agora</button>
   </div>
 </section>
 
-<!-- BENEFÍCIOS -->
-<section id="beneficios" class="section">
-  <h2>Benefícios</h2>
-  <div class="grid">
-    <div class="card">📱 Funciona em qualquer dispositivo</div>
-    <div class="card">⚡ Alta qualidade de streaming</div>
-    <div class="card">🎬 Conteúdo variado</div>
-    <div class="card">🔒 Cancelamento fácil</div>
-  </div>
-</section>
-
-<!-- AVALIAÇÕES (MODELO) -->
-<section id="avaliacoes" class="section">
+<!-- REVIEWS -->
+<section id="reviews" class="section">
   <h2>O que nossos clientes dizem</h2>
 
   <div class="grid">
 
     <div class="review">
-      <img src="https://i.pravatar.cc/100?img=12" alt="avatar">
-      <h4>Cliente A</h4>
+      <img src="https://i.pravatar.cc/100?img=5">
+      <h4>Marcos S.</h4>
       <p>⭐⭐⭐⭐⭐</p>
       <p>"Muito bom, funciona perfeitamente na minha TV."</p>
     </div>
 
     <div class="review">
-      <img src="https://i.pravatar.cc/100?img=32" alt="avatar">
-      <h4>Cliente B</h4>
+      <img src="https://i.pravatar.cc/100?img=12">
+      <h4>Juliana R.</h4>
       <p>⭐⭐⭐⭐⭐</p>
-      <p>"Qualidade excelente e sem travamentos."</p>
+      <p>"Qualidade excelente, sem travamentos e sem anúncios."</p>
     </div>
 
     <div class="review">
-      <img src="https://i.pravatar.cc/100?img=45" alt="avatar">
-      <h4>Cliente C</h4>
+      <img src="https://i.pravatar.cc/100?img=32">
+      <h4>André L.</h4>
       <p>⭐⭐⭐⭐⭐</p>
       <p>"Melhor custo-benefício que já encontrei."</p>
     </div>
@@ -79,33 +86,35 @@
   </div>
 </section>
 
-<!-- FOOTER -->
-<footer id="contato" class="footer">
-  <div class="footer-grid">
+<!-- FAQ -->
+<section id="faq" class="section faq">
+  <h2>Dúvidas Frequentes</h2>
 
-    <div>
-      <h3>Contato</h3>
-      <p>WhatsApp: (SEU NÚMERO AQUI)</p>
-      <p>Email: contato@seusite.com</p>
-    </div>
-
-    <div>
-      <h3>Institucional</h3>
-      <p>Quem somos</p>
-      <p>Termos de uso</p>
-      <p>Política de privacidade</p>
-    </div>
-
-    <div>
-      <h3>Ajuda</h3>
-      <p>Suporte 24h</p>
-      <p>FAQ</p>
-    </div>
-
+  <div class="faq-item">
+    <h4>Posso cancelar quando quiser?</h4>
+    <p>Sim, você pode cancelar sua assinatura a qualquer momento sem taxas adicionais.</p>
   </div>
 
-  <p class="copy">© 2026 Todos os direitos reservados</p>
+  <div class="faq-item">
+    <h4>Funciona em quais dispositivos?</h4>
+    <p>Funciona em celular, TV, computador e tablets.</p>
+  </div>
+
+  <div class="faq-item">
+    <h4>Tem anúncios?</h4>
+    <p>Não. A plataforma é totalmente livre de anúncios durante o uso.</p>
+  </div>
+
+</section>
+
+<!-- FOOTER -->
+<footer class="footer">
+  <p>WhatsApp: (00) 00000-0000</p>
+  <p>Email: suporte@streammax.com</p>
+  <p>Termos de Uso | Política de Privacidade | Quem Somos</p>
+  <p class="copy">© 2026 StreamMax</p>
 </footer>
 
+<script src="script.js"></script>
 </body>
 </html>
