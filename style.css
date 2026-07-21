@@ -35,6 +35,7 @@ body {
 
 .hero-content {
   max-width: 40%;
+  z-index:2;  
 }
 
 .slider {
@@ -49,11 +50,18 @@ body {
 }
 
 .slide.active {
+  position: relative;
   display: block;
+  object-position: center;
+  width: 100vh;
+  height: 80vh; 
+  overflow: hidden; 
+  objecti-fit:cover;    
 }
 
 /* BOTÃO GRANDE */
-.cta-big {
+.cta-big {  
+  z-index: 2;
   margin-top: 20px;
   padding: 15px 30px;
   background: red;
@@ -78,6 +86,10 @@ body {
   margin-top: 20px;
 }
 
+.icon { 
+width: 10vh;
+}
+
 .card {
   background: #111;
   padding: 20px;
@@ -92,19 +104,44 @@ body {
 }
 
 .price-card {
+  z-index: 1;
   background: #222;
   border: 3px solid red;
   border-radius: 10px;
-  padding: 30px;
-  padding-botton: 40px:
+  padding-bottom: 40px;
   max-width: 500px;
-  margin: auto;
+  display:inline-block;
+  margin: 0 auto;
   font-weight: bold;
+  
 }
 
+.premtotal { 
+  text-transform: uppercase;
+  padding-top: 25px;;
+  padding-bottom: 5vh;
+   font-size: 25px;
+  color: white;
+  background: red;
+}
+
+.titulo { 
+  padding:25px;
+  font-size: 20px;}
+
 .price {
-  font-size: 28px;
-  color: red;
+  font-size: 59px;
+  color: white;
+}
+
+.descrtion { 
+
+  font-size:10px;
+  padding: 10px;
+}
+
+.mes{ 
+  font-size: 25px;
 }
 
 button { 
@@ -135,4 +172,17 @@ border-radius: 10px;}
   text-align: center;
   padding: 30px;
   background: #000;
+
 }
+
+
+.info { 
+  padding: 10px;
+  position: relative; 
+  text-align: left;
+}
+
+.informacoes { 
+
+  font-size: 20px;
+  padding-bottom: 20px;
